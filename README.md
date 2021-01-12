@@ -3,7 +3,7 @@ K-Means
 
 ## General description
  
-Python implementation of k-means clustering algorithm with Davies-Bouldin internal cluste validation and Minmax initialization methods.
+Python implementation of k-means clustering algorithm with Davies-Bouldin internal cluster validation and Minmax initialization methods.
 
 Internal validation is helful to determine and test the number of centroids.
 Internal cluster validation evaluates the goodness of a clustering structure and estimates the number of appropriate clusters without reference to external data (such as labels).
@@ -12,7 +12,7 @@ Minmax selects an arbitrary point as the first centroid and then adds new centro
 
 ## Input
 
-Iris-bezdek.
+Iris-bezdek dataset.
 
 ## Output
 SSE loss and Davies-Bouldin Index
